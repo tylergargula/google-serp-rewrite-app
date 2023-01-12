@@ -109,7 +109,7 @@ def get_serp(input_url):
 
 while app_run:
     p = st.empty()
-    for index, url in enumerate(urls_list[:3]):
+    for index, url in enumerate(urls_list[:50]):
         p.write(f'Analyzing ::  {url} :: {index + 1} of {len(urls_list)}')
 
         request_headers = {
