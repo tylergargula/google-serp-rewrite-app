@@ -4,4 +4,5 @@ streamlit~=1.16.0
 bs4~=0.0.1
 beautifulsoup4~=4.11.1
 fuzzywuzzy~=0.18.0
+openpyxl~=3.0.10
 
